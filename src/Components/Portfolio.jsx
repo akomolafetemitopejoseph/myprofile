@@ -1,24 +1,23 @@
 import React from "react";
-import clservices from "../assets/cleaningservices.png";
-import design1 from "../assets/design.jpg";
-import design2 from "../assets/design2.jpg";
-import design3 from "../assets/design3.jpg";
+import { GoArrowRight } from "react-icons/go";
 
-const Portfolio = () => {
+const Portfolio = ({ img, heading, paragraph, view }) => {
   return (
     <div>
-      <h1>featured projects</h1>
       <div>
-        <img className="w-[300px] h-[300px]" src={clservices} alt="project-1" />
-      </div>
-      <div>
-        <img className="w-[300px] h-[300px]" src={design1} alt="project-2" />
-      </div>
-      <div>
-        <img className="w-[300px] h-[300px]" src={design2} alt="project-3" />
-      </div>
-      <div>
-        <img className="w-[300px] h-[300px]" src={design3} alt="project-4" />
+        <div className="">
+          <img className="w-[500px] h-[250px]" src={img} alt="" />
+          <div className="space-y-5 bg-gray-700 w-[500px] p-5">
+            <h1 className="text-white capitalize text-2xl font-bold">
+              {heading}
+            </h1>
+            <p className="text-gray-300 text-xl">{paragraph}</p>
+            <p className="flex items-center gap-2 mt-5 text-blue-500 hover:text-blue-200 font-bold text-xl capitalize cursor-pointer transition-all duration-700">
+              {view}
+              <GoArrowRight className="text-2xl" />
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   );
