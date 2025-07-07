@@ -5,6 +5,7 @@ import img2 from "../assets/design.jpg";
 import img3 from "../assets/design2.jpg";
 import img4 from "../assets/design3.jpg";
 import Expertise from "../Components/Expertise";
+import Contact from "../Components/Contact";
 
 const Homepage = () => {
   return (
@@ -40,7 +41,9 @@ const Homepage = () => {
             view="view project"
           />
         </div>
+        <div className="w-[100%] h-1 bg-gray-600 mt-15 "></div>
       </div>
+      <Contact />
     </div>
   );
 };

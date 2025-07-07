@@ -8,7 +8,9 @@ const NavBar = () => {
       <div className=" flex justify-around items-center">
         <div className="flex">
           <SiJoplin className="text-4xl text-gray-500 " />
-          <h1 className="text-3xl font-semibold bg-gradient-to-tr from-gray-400 via-gray-700 to-green-400 bg-clip-text text-transparent">-temitope</h1>
+          <h1 className="text-3xl font-semibold bg-gradient-to-tr from-gray-400 via-gray-700 to-green-400 bg-clip-text text-transparent">
+            -temitope
+          </h1>
         </div>
 
         <div>
@@ -20,10 +22,13 @@ const NavBar = () => {
               portfolio
             </li>
             <li className="hover:text-gray-400 transition-all duration-700 p-2">
-              services
+              skills
             </li>
             <li className="hover:text-gray-400 transition-all duration-700 p-2">
               testimonials
+            </li>
+            <li className="hover:text-gray-400 transition-all duration-700 p-2">
+              contacts
             </li>
           </ul>
         </div>
@@ -60,11 +65,13 @@ const NavBar = () => {
           reliable web solutions.
         </p>
 
-        <div className="space-x-5 mt-10">
-          <button className="text-white bg-gradient-to-r from-green-400 via-green-500 to-green-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-green-300 dark:focus:ring-green-800 shadow-lg shadow-green-500/50 dark:shadow-lg dark:shadow-green-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 cursor-pointer">
-            Let's work together to bring your ideas to life.
-          </button>
-          
+        <div class="flex items-center justify-center mt-10">
+          <div class="group relative">
+            <div class="absolute -inset-1 rounded-lg bg-gradient-to-r from-rose-400 via-fuchsia-500 to-indigo-500 opacity-75 blur transition duration-500 group-hover:opacity-100"></div>
+            <button class="relative flex items-center gap-4 rounded-lg bg-gray-900 cursor-pointer px-7 py-4 hover:text-gray-700 active:bg-gray-100 transition-all duration-700 font-bold text-white text-xl capitalize">
+               let's work together to bring your ideas to life
+            </button>
+          </div>
         </div>
       </div>
     </div>

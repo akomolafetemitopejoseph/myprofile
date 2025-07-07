@@ -19,6 +19,7 @@ const Portfolio = ({ img, heading, paragraph, view }) => {
           </div>
         </div>
       </div>
+      
     </div>
   );
 };
