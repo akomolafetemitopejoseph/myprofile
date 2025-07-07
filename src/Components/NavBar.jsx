@@ -7,8 +7,8 @@ const NavBar = () => {
     <div className=" bg-[#111827] h-screen pt-10">
       <div className=" flex justify-around items-center">
         <div className="flex">
-          <SiJoplin className="text-4xl text-green-500" />
-          <h1 className="text-3xl font-semibold">-temitope</h1>
+          <SiJoplin className="text-4xl text-gray-500 " />
+          <h1 className="text-3xl font-semibold bg-gradient-to-tr from-gray-400 via-gray-700 to-green-400 bg-clip-text text-transparent">-temitope</h1>
         </div>
 
         <div>
@@ -27,8 +27,10 @@ const NavBar = () => {
             </li>
           </ul>
         </div>
-        <div>
-          <button className="text-white bg-gradient-to-r from-green-400 via-green-500 to-green-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-green-300 dark:focus:ring-green-800 shadow-lg shadow-green-500/50 dark:shadow-lg dark:shadow-green-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">
+
+        <div class="relative">
+          <div class="absolute -inset-1 rounded-lg bg-gradient-to-r from-rose-400 via-fuchsia-500 to-indigo-500 opacity-75 blur"></div>
+          <button class="relative rounded-lg bg-gray-900 cursor-pointer px-3 py-2 hover:text-gray-700 active:bg-gray-100 transition-all duration-700 font-bold text-white text-xl capitalize">
             let's connect
           </button>
         </div>
@@ -46,7 +48,7 @@ const NavBar = () => {
           Akomolafe Temitope <br /> Joseph.
         </h1>
         <h1 className="leading-10 text-[1.2rem] font-semibold text-white">
-          Full Stack Developer
+          Fendend Developer
         </h1>
 
         <p className="mt-5 font-bold text-l text-white">
@@ -62,6 +64,7 @@ const NavBar = () => {
           <button className="text-white bg-gradient-to-r from-green-400 via-green-500 to-green-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-green-300 dark:focus:ring-green-800 shadow-lg shadow-green-500/50 dark:shadow-lg dark:shadow-green-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 cursor-pointer">
             Let's work together to bring your ideas to life.
           </button>
+          
         </div>
       </div>
     </div>
