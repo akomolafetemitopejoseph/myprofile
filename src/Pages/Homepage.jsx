@@ -6,6 +6,8 @@ import img3 from "../assets/design2.jpg";
 import img4 from "../assets/design3.jpg";
 import Expertise from "../Components/Expertise";
 import Contact from "../Components/Contact";
+import Ratings from "../Components/Ratings";
+import TextimonialProps from "../Components/TextimonialProps";
 
 const Homepage = () => {
   return (
@@ -15,25 +17,28 @@ const Homepage = () => {
         <h1 className="text-center text-3xl font-extrabold text-white pt-10">
           Featured Projects
         </h1>
-        <div className="grid grid-cols-2 justify-center gap-10 mt-10 justify-items-center">
+        <div className="grid grid-cols-2 gap-5 m-15">
           <Portfolio
             img={img1}
             heading="Project Title 1"
             paragraph="A brief description of the project and the technologies used in its development."
             view="view project"
           />
+
           <Portfolio
             img={img2}
             heading="Project Title 2"
             paragraph="A brief description of the project and the technologies used in its development."
             view="view project"
           />
+
           <Portfolio
             img={img3}
             heading="Project Title 3"
             paragraph="A brief description of the project and the technologies used in its development."
             view="view project"
           />
+
           <Portfolio
             img={img4}
             heading="Project Title 4"
@@ -43,6 +48,8 @@ const Homepage = () => {
         </div>
         <div className="w-[100%] h-1 bg-gray-600 mt-15 "></div>
       </div>
+      <TextimonialProps />
+      <Ratings />
       <Contact />
     </div>
   );

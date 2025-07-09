@@ -1,6 +1,7 @@
 import React from "react";
 import myimage from "../assets/mypics.jpg";
 import { SiJoplin } from "react-icons/si";
+import { Link } from "react-scroll";
 
 const NavBar = () => {
   return (
@@ -18,18 +19,25 @@ const NavBar = () => {
             <li className="hover:text-gray-400 transition-all duration-700 p-2">
               about
             </li>
-            <li className="hover:text-gray-400 transition-all duration-700 p-2">
-              portfolio
-            </li>
+            <Link to="skills" smooth={true} duration={1000}>
             <li className="hover:text-gray-400 transition-all duration-700 p-2">
               skills
             </li>
+            </Link>
+            <Link to="porfolio" smooth={true} duration={1000}>
+              <li className="hover:text-gray-400 transition-all duration-700 p-2">
+                portfolio
+              </li>
+            </Link>
+
             <li className="hover:text-gray-400 transition-all duration-700 p-2">
               testimonials
             </li>
+            <Link to="contact" smooth={true} duration={1000}>
             <li className="hover:text-gray-400 transition-all duration-700 p-2">
               contacts
             </li>
+            </Link>
           </ul>
         </div>
 
@@ -69,7 +77,7 @@ const NavBar = () => {
           <div class="group relative">
             <div class="absolute -inset-1 rounded-lg bg-gradient-to-r from-rose-400 via-fuchsia-500 to-indigo-500 opacity-75 blur transition duration-500 group-hover:opacity-100"></div>
             <button class="relative flex items-center gap-4 rounded-lg bg-gray-900 cursor-pointer px-7 py-4 hover:text-gray-700 active:bg-gray-100 transition-all duration-700 font-bold text-white text-xl capitalize">
-               let's work together to bring your ideas to life
+              let's work together to bring your ideas to life
             </button>
           </div>
         </div>

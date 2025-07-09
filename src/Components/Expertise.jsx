@@ -3,14 +3,14 @@ import React from "react";
 const Expertise = () => {
   return (
     <div className="bg-[#111827] h-screen pt-10 text-white">
-      <div>
+      <div id="skills">
         <div>
           <h1 className="text-center text-4xl font-bold mt-10">
             Technical Skills
           </h1>
         </div>
 
-        <div className="w-[80%] grid grid-cols-2 justify-self-center mt-10 gap-10 m-15 ">
+        <div className="w-[80%] grid grid-cols-2 justify-self-center mt-10 gap-10 m-auto ">
           <div>
             <h1 className="flex justify-between text-sm space-x-50 mb-2">
               React <span className="mr-15">70%</span>
@@ -77,7 +77,6 @@ const Expertise = () => {
           </div>
         </div>
       </div>
-      
     </div>
   );
 };

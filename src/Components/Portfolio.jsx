@@ -4,10 +4,11 @@ import { GoArrowRight } from "react-icons/go";
 const Portfolio = ({ img, heading, paragraph, view }) => {
   return (
     <div>
-      <div>
-        <div className="">
-          <img className="w-[500px] h-[250px]" src={img} alt="" />
-          <div className="space-y-5 bg-gray-700 w-[500px] p-5">
+      
+      <div id="porfolio">
+        <div className="w-full h-[400px]">
+          <img className="w-full h-[250px] m-auto" src={img} alt="" />
+          <div className="w-full space-y-5 bg-gray-700  p-5">
             <h1 className="text-white capitalize text-2xl font-bold">
               {heading}
             </h1>

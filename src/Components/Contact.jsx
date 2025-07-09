@@ -8,8 +8,8 @@ import { FaXTwitter } from "react-icons/fa6";
 
 const Contact = () => {
   return (
-    <div className="bg-gray-800 text-white">
-      <div className=" text-center">
+    <div className="bg-gray-900 text-white">
+      <div id="contact" className=" text-center">
         <h1 className="pt-15 text-4xl font-bold capitalize mb-5">contact</h1>
         <h1 className="text-xl mb-5 text-gray-300">
           Interested in working together? Let's have a conversation.
@@ -39,9 +39,9 @@ const Contact = () => {
         </div>
       </div>
       <div className="flex justify-center gap-4 mt-10 pb-10 text-3xl text-gray-400">
-        <IoLogoGithub />
-        <FaLinkedin />
-        <FaXTwitter />
+        <IoLogoGithub className="cursor-pointer" />
+        <FaLinkedin className="cursor-pointer"/>
+        <FaXTwitter className="cursor-pointer"/>
       </div>
     </div>
   );
