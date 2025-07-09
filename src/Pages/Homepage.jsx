@@ -8,6 +8,7 @@ import Expertise from "../Components/Expertise";
 import Contact from "../Components/Contact";
 import Ratings from "../Components/Ratings";
 import TextimonialProps from "../Components/TextimonialProps";
+import { FloatButton } from "antd";
 
 const Homepage = () => {
   return (
@@ -51,6 +52,7 @@ const Homepage = () => {
       <TextimonialProps />
       <Ratings />
       <Contact />
+      <FloatButton.BackTop className="text-gray-900" />
     </div>
   );
 };

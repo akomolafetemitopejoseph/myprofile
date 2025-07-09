@@ -6,7 +6,7 @@ const Portfolio = ({ img, heading, paragraph, view }) => {
     <div>
       
       <div id="porfolio">
-        <div className="w-full h-[400px]">
+        <div className=" ">
           <img className="w-full h-[250px] m-auto" src={img} alt="" />
           <div className="w-full space-y-5 bg-gray-700  p-5">
             <h1 className="text-white capitalize text-2xl font-bold">

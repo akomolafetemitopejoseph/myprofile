@@ -39,9 +39,11 @@ const Contact = () => {
         </div>
       </div>
       <div className="flex justify-center gap-4 mt-10 pb-10 text-3xl text-gray-400">
-        <IoLogoGithub className="cursor-pointer" />
-        <FaLinkedin className="cursor-pointer"/>
-        <FaXTwitter className="cursor-pointer"/>
+        <a href="https://github.com/akomolafetemitopejoseph">
+          <IoLogoGithub className="cursor-pointer" />
+        </a>
+        <FaLinkedin className="cursor-pointer" />
+        <FaXTwitter className="cursor-pointer" />
       </div>
     </div>
   );

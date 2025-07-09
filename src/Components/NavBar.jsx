@@ -20,23 +20,24 @@ const NavBar = () => {
               about
             </li>
             <Link to="skills" smooth={true} duration={1000}>
-            <li className="hover:text-gray-400 transition-all duration-700 p-2">
-              skills
-            </li>
+              <li className="hover:text-gray-400 transition-all duration-700 p-2">
+                skills
+              </li>
             </Link>
             <Link to="porfolio" smooth={true} duration={1000}>
               <li className="hover:text-gray-400 transition-all duration-700 p-2">
                 portfolio
               </li>
             </Link>
-
-            <li className="hover:text-gray-400 transition-all duration-700 p-2">
-              testimonials
-            </li>
+            <Link to="testimonials" smooth={true} duration={1000}>
+              <li className="hover:text-gray-400 transition-all duration-700 p-2">
+                testimonials
+              </li>
+            </Link>
             <Link to="contact" smooth={true} duration={1000}>
-            <li className="hover:text-gray-400 transition-all duration-700 p-2">
-              contacts
-            </li>
+              <li className="hover:text-gray-400 transition-all duration-700 p-2">
+                contacts
+              </li>
             </Link>
           </ul>
         </div>
