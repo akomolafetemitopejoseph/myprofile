@@ -3,8 +3,8 @@ import Swiper from "swiper";
 
 const Testimonails = ({ text, name, role }) => {
   return (
-    <div>
-      <div id="testimonials">
+    <div className="max-sm:w-95 max-sm:p-5">
+      <div id="testimonials ">
         <article class=" bg-gray-700 shadow space-y-2 rounded-md hover:-translate-y-2 duration-300">
           <svg
             viewBox="0 0 24 24"

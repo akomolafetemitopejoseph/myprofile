@@ -10,8 +10,8 @@ const Contact = () => {
   return (
     <div className="bg-gray-900 text-white">
       <div id="contact" className=" text-center">
-        <h1 className="pt-15 text-4xl font-bold capitalize mb-5">contact</h1>
-        <h1 className="text-xl mb-5 text-gray-300">
+        <h1 className="pt-15 text-4xl max-sm:text-3xl font-bold capitalize mb-5">contact</h1>
+        <h1 className="text-xl max-sm:text-[18px] mb-5 text-gray-300">
           Interested in working together? Let's have a conversation.
         </h1>
 
@@ -20,7 +20,7 @@ const Contact = () => {
         </p>
       </div>
 
-      <div className="flex justify-center gap-5 mt-10">
+      <div className="flex max-sm:grid justify-center gap-5 mt-10">
         <div class="flex items-center justify-center">
           <div class="group relative">
             <div class="absolute -inset-1 rounded-lg bg-gradient-to-r from-rose-400 via-fuchsia-500 to-indigo-500 opacity-75 blur transition duration-500 group-hover:opacity-100"></div>
