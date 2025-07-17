@@ -4,8 +4,8 @@ import Testimonails from "./Testimonails";
 const TextimonialProps = () => {
   return (
     <div>
-      <h1 className="bg-gray-900 text-center text-4xl max-sm:text-2xl p-10 max-sm:p-5 font-bold text-white">See why they love my work</h1>
-      <div className="bg-gray-900 grid max-sm:grid-cols-1 max-sm:p-5 grid-cols-2 p-15 gap-5 max-sm:gap-3">
+      <h1 className="bg-gray-900 text-center text-4xl max-md:text-2xl p-10 max-md:p-5 font-bold text-white">See why they love my work</h1>
+      <div className="bg-gray-900 grid max-md:grid-cols-1 max-md:p-5 grid-cols-2 p-15 gap-5 max-md:gap-3">
         <Testimonails
           text="Working with Temitope was a game-changer for our business. He delivered a clean, responsive website that not only looked amazing but also performed flawlessly on all devices. Highly recommended!"
           name="Sarah O"

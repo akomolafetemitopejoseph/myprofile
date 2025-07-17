@@ -10,8 +10,6 @@ const NavBar = () => {
     setNavBar(!navBar);
   };
 
- 
-
   return (
     <>
       <div className="w-full fixed top-0 left-0 right-0 shadow bg-[#111827] p-5  z-50">
@@ -23,7 +21,10 @@ const NavBar = () => {
           </div>
           <div className="">
             <ul className="lg:flex hidden font-bold justify-between gap-10 capitalize text-xl cursor-pointer text-white">
-              <li className=" p-5">about</li>
+              <Link to="about" smooth={true} duration={1000}>
+                <li className=" p-5">about</li>
+              </Link>
+
               <Link to="skills" smooth={true} duration={1000}>
                 <li className=" p-5">skills</li>
               </Link>
@@ -45,7 +46,7 @@ const NavBar = () => {
               let's connect
             </button>
           </div>
-          <div className="lg:hidden text-2xl">
+          <div className="lg:hidden text-2xl border-2 p-2 rounded-xl">
             {navBar ? (
               <RxHamburgerMenu onClick={click} />
             ) : (
@@ -54,8 +55,7 @@ const NavBar = () => {
           </div>
         </div>
       </div>
-      {navBar &&
-      (
+      {navBar && (
         <nav>
           <ul className="lg:hidden absolute right-0 top-20 bg-gray-800 font-bold opacity-95 capitalize w-full text-2xl  text-white text-center">
             <li className=" p-5">about</li>
