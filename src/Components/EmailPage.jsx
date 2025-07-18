@@ -1,6 +1,6 @@
 import React from "react";
 
-const EmailForms = () => {
+const Emailpage = () => {
   return (
     <div className="bg-gray-800 h-screen flex items-center">
       <div class="max-w-[360px] w-full mx-auto bg-[#0d1b2a] rounded-lg shadow-md p-4">
@@ -53,4 +53,4 @@ const EmailForms = () => {
   );
 };
 
-export default EmailForms;
+export default Emailpage;

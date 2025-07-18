@@ -1,7 +1,8 @@
 import React from "react";
 import NavBar from "./Components/NavBar";
 import Homepage from "./Pages/Homepage";
-import HeroSection from "./Components/HeroSection";
+
+import HeroSection from "./MyheroPage/HeroSection";
 
 const App = () => {
   return (
@@ -9,7 +10,6 @@ const App = () => {
       <NavBar />
       <HeroSection />
       <Homepage />
-    
     </div>
   );
 };

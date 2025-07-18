@@ -42,9 +42,11 @@ const NavBar = () => {
           <div class=" hidden:flex  items-center justify-center mt-10"></div>
           <div class="lg:flex hidden group relative">
             <div class="absolute -inset-1 rounded-lg bg-gradient-to-r from-rose-400 via-fuchsia-500 to-indigo-500  opacity-75 blur transition duration-500 group-hover:opacity-100"></div>
-            <button class=" relative items-center gap-4 rounded-lg bg-gray-900 cursor-pointer px-3 py-2 hover:text-gray-700 active:bg-gray-100 transition-all duration-700 font-bold text-white text-xl capitalize">
-              let's connect
-            </button>
+            
+              <button class=" relative items-center gap-4 rounded-lg bg-gray-900 cursor-pointer px-3 py-2 hover:text-gray-700 active:bg-gray-100 transition-all duration-700 font-bold text-white text-xl capitalize">
+                let's connect
+              </button>
+            
           </div>
           <div className="lg:hidden text-2xl border-2 p-2 rounded-xl">
             {navBar ? (

@@ -9,10 +9,12 @@ import Contact from "../Components/Contact";
 import Ratings from "../Components/Ratings";
 import TextimonialProps from "../Components/TextimonialProps";
 import { FloatButton } from "antd";
+import HeroSection from "../MyheroPage/HeroSection";
 
 const Homepage = () => {
   return (
     <div>
+     
       <Expertise />
       <div className="bg-gray-800">
         <h1 className="text-center text-3xl max-md:text-4xl font-extrabold text-white pt-10">
