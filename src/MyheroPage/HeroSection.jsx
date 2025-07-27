@@ -1,14 +1,16 @@
-import React from "react";
+import React, { useEffect } from "react";
 import myimage from "../assets/mypics.jpg";
 import Btn from "./btn";
 import { TypeAnimation } from "react-type-animation";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const HeroSection = () => {
+  useEffect(() => {
+    AOS.init();
+  }, {});
   return (
-    <div
-      id="about"
-      className="bg-[#111827] mt-20 h-screen max-md:mt-20 max-md:p-5"
-    >
+    <div className="bg-[#111827] mt-20 h-screen max-md:mt-20 max-md:p-5">
       <div className="items-center mt-15 max-md:mt-2 pt-15 max-md:pt-2 text-center">
         <div>
           <img
@@ -42,7 +44,12 @@ const HeroSection = () => {
           <div className="w-50 m-auto mt-3 h-1 bg-gray-700"></div>
         </div>
 
-        <p className="mt-5  max-md:mt-4 font-bold text-l max-sm:text-xl max-md:text-l max-md:p-2 text-white">
+        <p
+          data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+          className="mt-5  max-md:mt-4 font-bold text-l max-sm:text-xl max-md:text-l max-md:p-2 text-white"
+        >
           I specialize in building clean, responsive, and high-performing
           websites. With expertise in React,
           <br /> Tailwind CSS, and JavaScript, I create seamless digital

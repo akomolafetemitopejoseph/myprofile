@@ -3,7 +3,12 @@ import React from "react";
 const Expertise = () => {
   return (
     <div className="bg-[#111827] h-screen pt-10 max-md:pt-2 max-md:p-5 text-white">
-      <div id="skills">
+      <div
+        id="skills"
+        data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine"
+      >
         <div className="max-md:mt-5 max-sm:m-2">
           <h1
             className="text-center pb-5 text-4xl m

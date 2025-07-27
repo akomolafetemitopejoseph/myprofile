@@ -4,9 +4,12 @@ import { GoArrowRight } from "react-icons/go";
 const Portfolio = ({ img, heading, paragraph, view }) => {
   return (
     <div>
-      
       <div id="porfolio">
-        <div className="max-md:w-fit max-md:p-5">
+        <div
+          data-aos="fade-up"
+          data-aos-anchor-placement="top-center"
+          className="max-md:w-fit max-md:p-5"
+        >
           <img className="w-full h-[250px] m-auto " src={img} alt="" />
           <div className="w-full space-y-5 bg-gray-700  p-5">
             <h1 className="text-white capitalize text-2xl max-sm:text-3xl font-bold">
@@ -20,7 +23,6 @@ const Portfolio = ({ img, heading, paragraph, view }) => {
           </div>
         </div>
       </div>
-      
     </div>
   );
 };
