@@ -10,9 +10,10 @@ const Contact = () => {
   return (
     <div className="bg-gray-900 text-white">
       <div
-        data-aos="fade-right"
-        data-aos-offset="100"
-        data-aos-easing="ease-in-sine"
+        data-aos="fade-zoom-in"
+        data-aos-easing="ease-in-back"
+        data-aos-delay="300"
+        data-aos-offset="0"
       >
         <div id="contact" className=" text-center">
           <h1 className="pt-15 max-md:pt-5 text-4xl max-mb:text-3xl font-bold capitalize mb-5">

@@ -22,7 +22,8 @@ const Homepage = () => {
           <Portfolio
             img={img1}
             heading="Project Title 1"
-            paragraph="A brief description of the project and the technologies used in its development."
+            paragraph=" A responsive and user-friendly cleaning services website built using React and Tailwind CSS. The project showcases core cleaning services with dedicated sections for About, Services, Testimonials, and Contact. It includes a modern, mobile-first design, animated components for enhanced user interaction, and clear call-to-action buttons for bookings. The project demonstrates strong frontend development skills in layout, component structuring, and styling using utility-first CSS.
+"
             view="view project"
           />
 

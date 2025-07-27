@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
-import myimage from "../assets/mypics.jpg";
+// import myimage from "../assets/mypics.jpg";
+import myimage from "../assets/myimage.jpg";
 import Btn from "./btn";
 import { TypeAnimation } from "react-type-animation";
 import AOS from "aos";
@@ -48,14 +49,14 @@ const HeroSection = () => {
           data-aos="fade-right"
           data-aos-offset="300"
           data-aos-easing="ease-in-sine"
-          className="mt-5  max-md:mt-4 font-bold text-l max-sm:text-xl max-md:text-l max-md:p-2 text-white"
+          className="mt-5  max-md:mt-4 font-bold text-l max-sm:text-xl max-md:text-l max-md:p-2 text-white text-center"
         >
-          I specialize in building clean, responsive, and high-performing
-          websites. With expertise in React,
-          <br /> Tailwind CSS, and JavaScript, I create seamless digital
+          I specialize in building clean, responsive, <br />
+          and high-performing websites. With expertise in React,
+          <br /> Tailwind CSS, and JavaScript, I create seamless digital <br />
           experiences that are both visually appealing and user-friendly. <br />
-          My focus is on translating ideas into functional, accessible, and
-          reliable web solutions.
+          My focus is on translating ideas into functional, <br /> accessible,
+          and reliable web solutions.
         </p>
       </div>
 
