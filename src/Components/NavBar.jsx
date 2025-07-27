@@ -17,38 +17,44 @@ const NavBar = () => {
           <div className="flex md:text-3xl ">
             <SiJoplin className="text-4xl text-gray-500 " />
 
-            <h1 className="text-3xl font-semibold bg-gradient-nt">-temitope</h1>
+            <h1 className="text-3xl font-semibold bg-gradient-nt text-white">
+              -temitope
+            </h1>
           </div>
           <div className="">
             <ul className="lg:flex hidden font-bold justify-between gap-10 capitalize text-xl cursor-pointer text-white">
               <Link to="about" smooth={true} duration={1000}>
-                <li className=" p-5">about</li>
+                <li className=" p-5 active:text-gray-400">about</li>
               </Link>
 
               <Link to="skills" smooth={true} duration={1000}>
-                <li className=" p-5">skills</li>
+                <li className=" p-5 active:text-gray-400">skills</li>
               </Link>
               <Link to="porfolio" smooth={true} duration={1000}>
-                <li className=" p-5">portfolio</li>
+                <li className=" p-5 active:text-gray-400">portfolio</li>
               </Link>
               <Link to="testimonials" smooth={true} duration={1000}>
-                <li className=" p-5">testimonials</li>
+                <li className=" p-5 active:text-gray-400">testimonials</li>
               </Link>
               <Link to="contact" smooth={true} duration={1000}>
-                <li className=" p-5">contacts</li>
+                <li className=" p-5 active:text-gray-400">contacts</li>
               </Link>
             </ul>
           </div>
           <div class=" hidden:flex  items-center justify-center mt-10"></div>
-          <div class="lg:flex hidden group relative">
-            <div class="absolute -inset-1 rounded-lg bg-gradient-to-r from-rose-400 via-fuchsia-500 to-indigo-500  opacity-75 blur transition duration-500 group-hover:opacity-100"></div>
-            
-              <button class=" relative items-center gap-4 rounded-lg bg-gray-900 cursor-pointer px-3 py-2 hover:text-gray-700 active:bg-gray-100 transition-all duration-700 font-bold text-white text-xl capitalize">
-                let's connect
-              </button>
-            
+
+          <div>
+            <div class="lg:flex hidden group relative">
+              <div class="absolute -inset-1 rounded-lg bg-gradient-to-r from-rose-400 via-fuchsia-500 to-indigo-500  opacity-75 blur transition duration-500 group-hover:opacity-100"></div>
+              <a href="https://wa.me/2349164127577?text=Hello%20I%20interested%20in%your%20sevices">
+                <button class=" relative items-center gap-4 rounded-lg bg-gray-900 cursor-pointer px-3 py-2 hover:text-gray-700 active:bg-gray-100 transition-all duration-700 font-bold text-white text-xl capitalize">
+                  let's connect
+                </button>
+              </a>
+            </div>
           </div>
-          <div className="lg:hidden text-2xl border-2 p-2 rounded-xl">
+
+          <div className="lg:hidden text-2xl border-2 p-2 rounded-xl animate-bounce duration-500 text-white">
             {navBar ? (
               <RxHamburgerMenu onClick={click} />
             ) : (
@@ -59,7 +65,7 @@ const NavBar = () => {
       </div>
       {navBar && (
         <nav>
-          <ul className="lg:hidden absolute right-0 top-20 bg-gray-800 font-bold opacity-95 capitalize w-full text-2xl  text-white text-center">
+          <ul className="lg:hidden fixed right-0 top-20 bg-gray-800 font-bold opacity-95 capitalize w-full text-2xl  text-white text-center">
             <li className=" p-5">about</li>
             <Link to="skills" smooth={true} duration={1000}>
               <li className=" p-5">skills</li>

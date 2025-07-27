@@ -6,8 +6,8 @@ const Portfolio = ({ img, heading, paragraph, view }) => {
     <div>
       
       <div id="porfolio">
-        <div className="max-sm:w-95 max-sm:p-5 ">
-          <img className="w-full h-[250px] m-auto" src={img} alt="" />
+        <div className="max-md:w-fit max-md:p-5">
+          <img className="w-full h-[250px] m-auto " src={img} alt="" />
           <div className="w-full space-y-5 bg-gray-700  p-5">
             <h1 className="text-white capitalize text-2xl max-sm:text-3xl font-bold">
               {heading}
