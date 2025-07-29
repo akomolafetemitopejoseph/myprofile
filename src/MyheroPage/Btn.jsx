@@ -5,7 +5,7 @@ const Btn = () => {
   const navigate = useNavigate();
   return (
     <div>
-      <div class="flex items-center justify-center mt-10 max-md:mt-3 max-md:p-5">
+      <div class="flex items-center justify-center mt-7 max-md:mt-3 max-md:p-5">
         <div class="group relative">
           <div class="absolute -inset-1 rounded-lg bg-gradient-to-r from-rose-400 via-fuchsia-500 to-indigo-500 opacity-75 blur transition duration-500 group-hover:opacity-100"></div>
 

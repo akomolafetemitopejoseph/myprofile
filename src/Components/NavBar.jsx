@@ -65,7 +65,7 @@ const NavBar = () => {
       </div>
       {navBar && (
         <nav>
-          <ul className="lg:hidden fixed right-0 top-20 bg-gray-800 font-bold opacity-95 capitalize w-full text-2xl  text-white text-center">
+          <ul className="lg:hidden z-10 fixed right-0 top-20 bg-gray-800 font-bold opacity-95 capitalize w-full text-2xl  text-white text-center">
             <li className=" p-5">about</li>
             <Link to="skills" smooth={true} duration={1000}>
               <li className=" p-5">skills</li>

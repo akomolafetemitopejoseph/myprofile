@@ -2,21 +2,21 @@ import React from "react";
 
 const Expertise = () => {
   return (
-    <div className="bg-[#111827] h-screen pt-10 max-md:pt-2 max-md:p-5 text-white">
+    <div className="bg-gray-900  h-screen pt-10 max-md:pt-2 max-md:p-5 text-white">
       <div
         id="skills"
         data-aos="fade-right"
         data-aos-offset="300"
         data-aos-easing="ease-in-sine"
       >
-        <div className="max-md:mt-5 max-sm:m-2">
+        <div className="max-md:mt-5 max-sm:m-2 ">
           <h1
             className="text-center pb-5 text-4xl m
           max-md:text-2xl font-bold mt-10 max-md:mt-2 max-sm:text-3xl"
           >
             Technical Skills
           </h1>
-          <div className="w-100 max-md:w-50 m-auto h-1 bg-gray-700"></div>
+          
         </div>
 
         <div className=" grid grid-cols-2 max-md:grid-cols-1 gap-5 max-md:gap-1 m-15 max-md:m-5 max-md:mt-2">

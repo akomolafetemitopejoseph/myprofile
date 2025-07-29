@@ -3,7 +3,7 @@ import CountUp from "react-countup";
 
 const Ratings = () => {
   return (
-    <div className="bg-gray-900">
+    <div className="bg-gray-900 ">
       <div
         data-aos="fade-up"
         data-aos-anchor-placement="center-bottom"

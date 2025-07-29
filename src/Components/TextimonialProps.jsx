@@ -4,7 +4,7 @@ import Testimonails from "./Testimonails";
 const TextimonialProps = () => {
   return (
     <>
-    <div className="bg-gray-900">
+    <div className="bg-gray-900 ">
       <h1 className=" text-center text-4xl max-md:text-2xl p-10 max-md:p-5 font-bold text-white">
           See why they love my work
         </h1>

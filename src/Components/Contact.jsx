@@ -8,7 +8,7 @@ import { FaXTwitter } from "react-icons/fa6";
 
 const Contact = () => {
   return (
-    <div className="bg-gray-900 text-white">
+    <div className="bg-gray-900  text-white">
       <div
         data-aos="fade-zoom-in"
         data-aos-easing="ease-in-back"

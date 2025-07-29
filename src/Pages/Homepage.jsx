@@ -14,7 +14,7 @@ const Homepage = () => {
   return (
     <div>
       <Expertise />
-      <div className="bg-gray-800">
+      <div className="bg-gray-900 ">
         <h1 className="text-center text-3xl max-md:text-4xl font-extrabold text-white pt-10">
           Featured Projects
         </h1>

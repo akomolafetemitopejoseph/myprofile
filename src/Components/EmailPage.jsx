@@ -15,7 +15,6 @@ const Emailpage = () => {
         () => {
           console.log("SUCCESS!");
           console.log("message sent");
-          
         },
         (error) => {
           console.log("FAILED...", error.text);
@@ -29,8 +28,8 @@ const Emailpage = () => {
   };
   return (
     <>
-      <div className="bg-gray-900 h-full   flex items-center max-md:h-fit">
-        <div className="max-w-[360px] w-full mx-auto  bg-[#0d1b2a] rounded-lg shadow-md p-4">
+      <div className="bg-gray-900  h-full   flex items-center max-md:h-fit">
+        <div className="max-w-[360px] w-full mx-auto  bg-[#0d1b2a] rounded-lg shadow-md p-5">
           <form ref={form} onSubmit={sendEmail}>
             <div className="mb-4">
               <label className="block mb-2 text-gray-50">Name</label>
