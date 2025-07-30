@@ -4,10 +4,13 @@ import Homepage from "./Pages/Homepage";
 import HeroSection from "./MyheroPage/HeroSection";
 import { Route, Routes } from "react-router-dom";
 import EmailPage from "./Components/EmailPage";
+import { BackgroundBeams } from "./components2/background-beams";
+
 
 const App = () => {
   return (
     <div>
+     <BackgroundBeams />
       <NavBar />
       <HeroSection />
       <Routes>
