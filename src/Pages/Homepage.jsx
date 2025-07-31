@@ -7,12 +7,23 @@ import img4 from "../assets/design3.jpg";
 import Expertise from "../Components/Expertise";
 import Contact from "../Components/Contact";
 import Ratings from "../Components/Ratings";
-import TextimonialProps from "../Components/TextimonialProps";
+// import TextimonialProps from "../Components/TextimonialProps";
 import { FloatButton } from "antd";
+import { AnimatedTestimonialsDemo } from "../component3/Testimonals2";
+
+
+
+
+
+
+
+
+
 
 const Homepage = () => {
   return (
     <div>
+      
       <Expertise />
       <div className="bg-gray-900 ">
         <h1 className="text-center text-3xl max-md:text-4xl font-extrabold text-white pt-10">
@@ -51,7 +62,8 @@ const Homepage = () => {
         <div className="w-[100%] max-sm:w-fit h-1 bg-gray-600 mt-15 "></div>
       </div>
 
-      <TextimonialProps />
+      {/* <TextimonialProps /> */}
+      <AnimatedTestimonialsDemo />
       <Ratings />
       <Contact />
       <FloatButton.BackTop className="text-gray-900" />
