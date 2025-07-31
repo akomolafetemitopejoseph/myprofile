@@ -60,6 +60,10 @@ const Contact = () => {
           </a>
         </div>
       </div>
+      <div>
+      <p className="text-center text-sm font-bold p-10 border-1 border-gray-800
+      ">&copy; <span className="text-pink-950">2025</span> Akomolafe Temitope. <span className="text-green-900 mx-2"> All</span>rights reserved.</p>
+      </div>
     </div>
   );
 };

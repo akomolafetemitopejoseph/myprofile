@@ -1,6 +1,7 @@
 "use client";;
 import { IconArrowLeft, IconArrowRight } from "@tabler/icons-react";
 import { motion, AnimatePresence } from "motion/react";
+import Swiper from "swiper";
 
 import { useEffect, useState } from "react";
 
@@ -35,12 +36,13 @@ export const AnimatedTestimonials = ({
   };
   return (
     
-    <div
-   
-      className="bg-gray-900 mx-auto px-4 py-20 font-sans antialiased md:max-w-fit md:px-8 lg:px-12">
+    <div id="testimonials"
+      className="bg-gray-900 mx-auto px-4 py-5 font-sans antialiased md:max-w-fit md:px-8 lg:px-12">
+         <h1 className="text-center mb-10 text-4xl text-white font-bold">Testimonials</h1>
       <div  data-aos="fade-up"
          data-aos-anchor-placement="top-center" className="relative grid grid-cols-1 gap-20 md:grid-cols-2">
         <div>
+       
           <div className="relative h-80 w-full">
             <AnimatePresence>
               {testimonials.map((testimonial, index) => (
@@ -76,8 +78,8 @@ export const AnimatedTestimonials = ({
                   <img
                     src={testimonial.src}
                     alt={testimonial.name}
-                    width={400}
-                    height={400}
+                    width={500}
+                    height={500}
                     draggable={false}
                     className="h-full w-full rounded-3xl object-cover object-center" />
                 </motion.div>

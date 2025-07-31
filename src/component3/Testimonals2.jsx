@@ -21,7 +21,7 @@ export function AnimatedTestimonialsDemo() {
         "Professional, fast, and reliable. Temitope created a custom web solution for us that was not only beautiful but also easy to manage. We’ve seen an increase in user engagement since launch.",
       name: "Fatima D",
       designation: "Non-Profit Organizer",
-      src: "https://images.unsplash.com/photo-1664151099399-d41ed991a10d?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      src: "https://images.unsplash.com/photo-1645092708550-2632c574bbfd?q=80&w=580&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
       quote:
