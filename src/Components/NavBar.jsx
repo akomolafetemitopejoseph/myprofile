@@ -21,7 +21,7 @@ const NavBar = () => {
               -temitope
             </h1>
           </div>
-          <div className="">
+          <div>
             <ul className="lg:flex hidden font-bold justify-between gap-10 capitalize text-xl cursor-pointer text-white">
               <Link to="about" smooth={true} duration={1000}>
                 <li className=" p-5 active:text-gray-400">about</li>
@@ -46,7 +46,7 @@ const NavBar = () => {
           <div>
             <div class="lg:flex hidden group relative">
               <div class="absolute -inset-1 rounded-lg bg-gradient-to-r from-rose-400 via-fuchsia-500 to-indigo-500  opacity-75 blur transition duration-500 group-hover:opacity-100"></div>
-              <a href="https://wa.me/2349164127577?text=Hello%20I%20interested%20in%your%20sevices">
+              <a href="https://wa.me/2349164127577" target="-blank" rel="noopener noreferrer">
                 <button class=" relative items-center gap-4 rounded-lg bg-gray-900 cursor-pointer px-3 py-2 hover:text-gray-700 active:bg-gray-100 transition-all duration-700 font-bold text-white text-xl capitalize">
                   let's connect
                 </button>
@@ -66,7 +66,10 @@ const NavBar = () => {
       {navBar && (
         <nav>
           <ul className="lg:hidden z-10 fixed right-0 top-20 bg-gray-800 font-bold opacity-95 capitalize w-full text-2xl  text-white text-center">
+            <Link to="about" smooth={true} duration={1000}>
             <li className=" p-5">about</li>
+            </Link>
+            
             <Link to="skills" smooth={true} duration={1000}>
               <li className=" p-5">skills</li>
             </Link>

@@ -1,8 +1,8 @@
 import React from "react";
 import Portfolio from "../Components/Portfolio";
 import img1 from "../assets/cleaningservices.png";
-import img2 from "../assets/design.jpg";
-import img3 from "../assets/design2.jpg";
+import img2 from "../assets/design2.PNG";
+import img3 from "../assets/design3.jpg";
 import img4 from "../assets/design3.jpg";
 import Expertise from "../Components/Expertise";
 import Contact from "../Components/Contact";
@@ -40,8 +40,14 @@ const Homepage = () => {
 
           <Portfolio
             img={img2}
-            heading="Project Title 2"
-            paragraph="A brief description of the project and the technologies used in its development."
+            heading="Developed a simple calculator -"
+            paragraph="This project showcases a basic calculator
+            capable of handling standard arithmetic
+            operations like addition, subtraction,
+            multiplication, and division.
+            It features a clean user interface built with
+            HTML and styled using CSS, while JavaScript
+            handles the logic and interactivity"
             view="view project"
           />
 

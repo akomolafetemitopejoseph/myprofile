@@ -11,7 +11,7 @@ const HeroSection = () => {
     AOS.init();
   }, {});
   return (
-    <div className="bg-gray-900  mt-20 h-screen max-md:mt-20 max-md:p-5">
+    <div id="about" className="bg-gray-900  mt-20 h-screen max-md:mt-20 max-md:p-5">
       <div className="items-center mt-15 max-md:mt-2 pt-15 max-md:pt-2 text-center">
         <div>
           <img
@@ -31,9 +31,9 @@ const HeroSection = () => {
           <div>
             <TypeAnimation
               sequence={[
-                "I am a frontend developer",
+                "I am a frontend developer.",
                 1000,
-                "I specialize in building clean, responsive,  and high-performing websites. ",
+                "I specialize in building clean, responsive,  and high-performing websites.",
                 1000,
               ]}
               wrapper="span"

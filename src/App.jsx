@@ -13,8 +13,7 @@ const App = () => {
   return (
    <div>
     <BackgroundBeams />
-   
-   <NavBar />
+    <NavBar />
     <HeroSection />
     <Routes>
       <Route path="/email" element={<EmailPage />} />
