@@ -5,6 +5,7 @@ import { IoDocumentText } from "react-icons/io5";
 import { IoLogoGithub } from "react-icons/io5";
 import { FaLinkedin } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
+import myResume from "../assets/frontendresume.pdf"
 
 const Contact = () => {
   return (
@@ -43,7 +44,8 @@ const Contact = () => {
             <div class="group relative">
               <div class="absolute -inset-1 rounded-lg bg-gradient-to-r from-rose-400 via-fuchsia-500 to-indigo-500 opacity-75 blur transition duration-500 group-hover:opacity-100"></div>
               <button class="relative flex items-center gap-4 rounded-lg bg-gray-900 cursor-pointer px-7 py-4 hover:text-gray-700 active:bg-gray-100 transition-all duration-700 font-bold text-white text-xl capitalize">
-                <IoDocumentText /> view resume
+                
+                <IoDocumentText /> <a href={myResume} download="myResume">my resume</a>
               </button>
             </div>
           </div>
