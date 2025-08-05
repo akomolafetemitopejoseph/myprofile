@@ -15,12 +15,12 @@ const HeroSection = () => {
       <div className="items-center mt-15 max-md:mt-2 pt-15 max-md:pt-2 text-center">
         <div>
           <img
-            className="w-[200px] max-md:w-[150px] max-sm:w-[200px] h-[200px]  max-md:h-[150px] max-sm:h-[200px] rounded-[50%] border-5 border-gray-400 mx-auto"
+            className="w-[200px] lg:w-[300px]  h-[200px]  lg:h-[300px] max-sm:h-[200px] rounded-[50%] border-5 border-gray-400 mx-auto"
             src={myimage}
             alt="imagee"
           />
         </div>
-        <h1 className="leading-7  text-2xl  max-md:text-[1.4rem] max-sm:text-[1.5rem] font-bold text-white mt-5">
+        <h1 className="leading-7  text-xl lg:text-l  font-bold text-white mt-5">
           Akomolafe Temitope <br /> Joseph.
         </h1>
         <div>
@@ -36,7 +36,7 @@ const HeroSection = () => {
               ]}
               wrapper="span"
               speed={30}
-              className="leading-tight max-md:leading-8 text-[1.2rem] max-md:text-[20px] max-sm:text[1rem]  font-semibold text-white max-md:mt-3"
+              className="leading-tight lg:leading-3 text-l lg:text-xl font-semibold text-white mt-3"
               repeat={Infinity}
             />
           </div>
@@ -47,7 +47,7 @@ const HeroSection = () => {
           data-aos="fade-right"
           data-aos-offset="300"
           data-aos-easing="ease-in-sine"
-          className="mt-2  max-md:mt-4 font-bold text-l max-sm:text-xl max-md:text-sm max-md:p-2 text-white"
+          className="mt-2 lg:mt-2 font-bold text-sm lg:text-xl lg:p-2 text-white"
         >
           I specialize in building clean, responsive, and high-performing
           websites.  With expertise in React, Tailwind CSS, and

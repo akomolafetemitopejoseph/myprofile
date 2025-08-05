@@ -17,10 +17,10 @@ const Contact = () => {
         data-aos-offset="0"
       >
         <div id="contact" className=" text-center">
-          <h1 className="pt-15 max-md:pt-5 text-4xl max-mb:text-3xl font-bold capitalize mb-5">
+          <h1 className="pt-5 lg:pt-15 text-2xl  mb:text-3xl lg:text-4xl font-bold capitalize mb-5">
             contact
           </h1>
-          <h1 className="text-l  max-sm:text-[18px] mb-5 text-gray-300">
+          <h1 className="text-l  lg:text-xl mb-5 text-gray-300">
             Interested in working together? <br /> Let's have a conversation.
           </h1>
 

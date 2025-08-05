@@ -7,14 +7,14 @@ export function AnimatedTestimonialsDemo() {
         "Working with Temitope was a game-changer for our business. He delivered a clean, responsive website that not only looked amazing but also performed flawlessly on all devices. Highly recommended!",
       name: "Sarah O",
       designation: "Small Business Owner",
-      src: "https://images.unsplash.com/photo-1615453261246-4b32e335a4a0?q=80&w=572&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      src: "https://plus.unsplash.com/premium_photo-1661688945333-0c93d717e55e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8YWZyaWNhbiUyMGxhZHl8ZW58MHx8MHx8fDA%3D",
     },
     {
       quote:
         "Temitope brought our vision to life better than we imagined. His attention to detail and creative UI/UX design made our brand stand out online. We'll definitely work with him again!",
       name: "Michael A",
       designation: "Marketing Director",
-      src: "https://images.unsplash.com/photo-1612214070442-3c806a722f0b?q=80&w=464&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      src: "https://images.unsplash.com/photo-1617293851568-bac1f3af7e09?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTJ8fGFmcmljYW4lMjBtZW58ZW58MHx8MHx8fDA%3D",
     },
     {
       quote:
