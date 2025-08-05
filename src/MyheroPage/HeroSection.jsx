@@ -12,7 +12,7 @@ const HeroSection = () => {
   }, {});
   return (
     <div id="about" className="bg-gray-900  mt-20 h-screen max-md:mt-20 max-md:p-5">
-      <div className="items-center mt-15 max-md:mt-2 pt-15 max-md:pt-2 text-center">
+      <div className="items-center mt-15 m-5 max-md:mt-2 pt-15 max-md:pt-2 text-center">
         <div>
           <img
             className="w-[200px] lg:w-[300px]  h-[200px]  lg:h-[300px] max-sm:h-[200px] rounded-[50%] border-5 border-gray-400 mx-auto"

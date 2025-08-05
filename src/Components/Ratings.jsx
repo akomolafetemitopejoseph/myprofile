@@ -7,7 +7,7 @@ const Ratings = () => {
       <div
         data-aos="fade-up"
         data-aos-anchor-placement="center-bottom"
-        className="grid justify-center md:flex lg:flex  p-5 lg:p-10"
+        className="grid justify-center md:flex lg:flex  pt-5 lg:pt-10 lg:p-10"
       >
         <div className="grid lg:flex lg
         items-center text-center gap-5 p-5">
@@ -39,7 +39,7 @@ const Ratings = () => {
           <h1 className="text-4xl lg:text-7xl text-white ">
             <CountUp end={2} duration={2} delay={1} />
           </h1>
-          <p className="text-gray-400 text-2xl mb-3">Individual awards</p>
+          <p className="text-gray-400 text-xl mb-3">Individual awards</p>
       
         </div>
       </div>

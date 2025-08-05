@@ -8,22 +8,23 @@ const Expertise = () => {
         data-aos="fade-right"
         data-aos-offset="300"
         data-aos-easing="ease-in-sine"
+        className="m-5"
       >
         <div className="mt-2 lg:mt-15 ">
           <h1
-            className="text-center pb-2 text-xl m
-          md:text-2xl lg:text-3xl font-bold mt-3 lg:pt-10"
+            className="text-center pb-2  text-xl m
+          md:text-2xl lg:text-3xl font-bold mt-2 lg:pt-10"
           >
             Technical Skills
           </h1>
           
         </div>
 
-        <div className=" grid grid-cols-1 lg:grid-cols-2 gap-5 lg:gap-2 m-5 lg:m-5">
+        <div className=" grid grid-cols-1 lg:grid-cols-2 gap-2 lg:gap-2 m-5 lg:m-5">
 
-          <div className="pb-3 lg:p-2 mt-4">
+          <div className="pb-3 lg:p-5 mt-2 ">
             
-            <h1 className="flex justify-between text-l  space-30 mb-2">
+            <h1 className="flex justify-between text-sm lg:text-2xl  space-30 mb-2">
               React <span>70%</span>
             </h1>
             <div className=" h-3 bg-gray-800 rounded-2xl">
@@ -31,8 +32,8 @@ const Expertise = () => {
             </div>
           </div>
 
-          <div className="pb-3 lg:p-2 mt-4">
-            <h1 className="flex justify-between text-l mb-2">
+          <div className="pb-3 lg:p-5 mt-2">
+            <h1 className="flex justify-between text-sm lg:text-2xl mb-2">
               Tailwind <span>78%</span>
             </h1>
             <div className="h-3 bg-gray-800 rounded-2xl">
@@ -40,8 +41,8 @@ const Expertise = () => {
             </div>
           </div>
 
-          <div className="pb-3 lg:p-2 mt-4">
-            <h1 className="flex justify-between text-l mb-2">
+          <div className="pb-3 lg:p-5 mt-2">
+            <h1 className="flex justify-between text-sm lg:text-2xl mb-2">
               JavaScript <span>50%</span>
             </h1>
             <div className="h-3 bg-gray-800 rounded-2xl">
@@ -49,8 +50,8 @@ const Expertise = () => {
             </div>
           </div>
 
-          <div className="pb-3 lg:p-2 mt-4">
-            <h1 className="flex justify-between text-l mb-2">
+          <div className="pb-3 lg:p-5 mt-2">
+            <h1 className="flex justify-between text-sm lg:text-2xl mb-2">
               Modern CSS <span>78%</span>
             </h1>
             <div className=" h-3 bg-gray-800 rounded-2xl">
@@ -58,8 +59,8 @@ const Expertise = () => {
             </div>
           </div>
 
-          <div className="pb-3 mt-4">
-            <h1 className="flex justify-between text-l mb-2">
+          <div className="pb-3 lg:p-5 mt-2">
+            <h1 className="flex justify-between text-sm lg:text-2xl mb-2">
               UI/UX Design <span>70%</span>
             </h1>
             <div className=" h-3 bg-gray-800 rounded-2xl">
@@ -67,8 +68,8 @@ const Expertise = () => {
             </div>
           </div>
 
-          <div className="pb-3  lg:mt-4">
-            <h1 className="flex justify-between text-l mb-2">
+          <div className="pb-3 lg:p-5 lg:mt-2">
+            <h1 className="flex justify-between text-sm lg:text-2xl mb-2">
               Responsive Design <span>70%</span>
             </h1>
             <div className=" h-3 bg-gray-800 rounded-2xl">
@@ -76,8 +77,8 @@ const Expertise = () => {
             </div>
           </div>
 
-          <div className="pb-3  lg:mt-4">
-            <h1 className="flex justify-between text-l mb-2">
+          <div className="pb-3 lg:p-5 lg:mt-4">
+            <h1 className="flex justify-between text-sm lg:text-2xl mb-2">
               Web Animation <span>70%</span>
             </h1>
             <div className=" h-3 bg-gray-800 rounded-2xl">
@@ -85,8 +86,8 @@ const Expertise = () => {
             </div>
           </div>
 
-          <div className="pb-3 lg:mt-4">
-            <h1 className="flex justify-between text-l  mb-2">
+          <div className="pb-3 lg:p-5 lg:mt-4">
+            <h1 className="flex justify-between text-sm lg:text-2xl mb-2">
               Git <span>80%</span>
             </h1>
             <div className=" h-3 bg-gray-800 rounded-2xl">

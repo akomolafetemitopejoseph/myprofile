@@ -38,7 +38,7 @@ export const AnimatedTestimonials = ({
     
     <div id="testimonials"
       className="bg-gray-900 mx-auto px-4 py-5 font-sans antialiased w-fit lg:px-5">
-         <h1 className="text-center mb-10 mt-5 lg:mb-5 text-xl lg:text-4xl text-white font-bold">Testimonials</h1>
+         <h1 className="text-center mb-15 lg:mt-10 lg:mb-5 text-xl lg:text-4xl text-white font-bold">Testimonials</h1>
       <div  data-aos="fade-up"
          data-aos-anchor-placement="top-center" className="relative grid lg:grid-cols-2 gap-10 grid-cols-1">
         <div>
