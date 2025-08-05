@@ -33,7 +33,7 @@ const Contact = () => {
           <div class="flex items-center justify-center max-md:mb-5">
             <div class="group relative">
               <div class="absolute -inset-1 rounded-lg bg-gradient-to-r from-rose-400 via-fuchsia-500 to-indigo-500 opacity-75 blur transition duration-500 group-hover:opacity-100"></div>
-              <a href="https://akomolafetemitope6@gmail.com">
+              <a href="https://wa.me/2349164127577" target="-blank" rel="noopener noreferrer">
                 <button class="relative flex items-center gap-4 rounded-lg bg-gray-900 cursor-pointer px-7 py-4 hover:text-gray-700 active:bg-gray-100 transition-all duration-700 font-bold text-white text-xl capitalize">
                   <FaEnvelope /> get in touch
                 </button>

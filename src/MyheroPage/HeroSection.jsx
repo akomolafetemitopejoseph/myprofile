@@ -47,7 +47,7 @@ const HeroSection = () => {
           data-aos="fade-right"
           data-aos-offset="300"
           data-aos-easing="ease-in-sine"
-          className="mt-2 lg:mt-2 font-bold text-sm lg:text-xl lg:p-2 text-white"
+          className="mt-2 lg:mt-2 font-bold text-center text-sm lg:text-xl lg:p-2 text-white"
         >
           I specialize in building clean, responsive, and high-performing
           websites.  With expertise in React, Tailwind CSS, and
