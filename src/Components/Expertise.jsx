@@ -20,7 +20,7 @@ const Expertise = () => {
         </div>
 
         <div className=" grid grid-cols-2 max-md:grid-cols-1 gap-5 max-md:gap-1 m-15 max-md:m-5 max-md:mt-2">
-          <div className="pb-5 max-md:mt-4 max-sm:mt-7">
+          <div className="pb-5 max-md:p-2 max-md:mt-4 max-sm:mt-7">
             <h1 className="flex justify-between text-xl space-x-50 max-md:space-30 mb-2">
               React <span>70%</span>
             </h1>
@@ -28,7 +28,7 @@ const Expertise = () => {
               <div className="w-[75%] h-full bg-gradient-to-r from-blue-500 to-purple-500"></div>
             </div>
           </div>
-          <div className="pb-5  max-md:mt-4 max-sm:mt-7">
+          <div className="pb-5 max-md:p-2  max-md:mt-4 max-sm:mt-7">
             <h1 className="flex justify-between text-xl space-x-50 mb-2">
               Tailwind <span>78%</span>
             </h1>
@@ -36,7 +36,7 @@ const Expertise = () => {
               <div className="w-[78%] h-full bg-gradient-to-r from-blue-500 to-purple-500"></div>
             </div>
           </div>
-          <div className="pb-5  max-md:mt-4 max-sm:mt-7">
+          <div className="pb-5 max-md:p-2  max-md:mt-4 max-sm:mt-7">
             <h1 className="flex justify-between text-xl space-x-50 mb-2">
               JavaScript <span>50%</span>
             </h1>
@@ -44,7 +44,7 @@ const Expertise = () => {
               <div className="w-[50%] h-full bg-gradient-to-r from-blue-500 to-purple-500"></div>
             </div>
           </div>
-          <div className="pb-5  max-md:mt-4 max-sm:mt-7">
+          <div className="pb-5 max-md:p-20  max-md:mt-4 max-sm:mt-7">
             <h1 className="flex justify-between text-xl space-x-50 mb-2">
               Modern CSS <span>78%</span>
             </h1>

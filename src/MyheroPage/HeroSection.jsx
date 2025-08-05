@@ -25,9 +25,7 @@ const HeroSection = () => {
         </h1>
         <div>
           <div className="w-50 m-auto mt-3 h-1 bg-gradient-to-r from-gray-900 via-[#1d1f29dd] to-gray-800"></div>
-          {/* <h1 className="leading-10 max-md:leading-8 text-[1.2rem] max-md:text-[1.4rem] max-sm:text[2rem]  font-semibold text-white max-md:mt-3">
-            Fendend Developer
-          </h1> */}
+          
           <div>
             <TypeAnimation
               sequence={[
@@ -49,12 +47,13 @@ const HeroSection = () => {
           data-aos="fade-right"
           data-aos-offset="300"
           data-aos-easing="ease-in-sine"
-          className="mt-2  max-md:mt-4 font-bold text-l max-sm:text-xl max-md:text-l max-md:p-2 text-white"
+          className="mt-2  max-md:mt-4 font-bold text-l max-sm:text-xl max-md:text-sm max-md:p-2 text-white"
         >
           I specialize in building clean, responsive, and high-performing
-          websites. <br /> With expertise in React, Tailwind CSS, and
-          JavaScript, <br />I create seamless digital experiences that are both
-          visually appealing and user-friendly. <br />
+          websites.  With expertise in React, Tailwind CSS, and
+          JavaScript, 
+          I create seamless digital experiences that are both
+          visually appealing and user-friendly. 
           My focus is on translating ideas into functional, accessible, and
           reliable web solutions.
         </p>

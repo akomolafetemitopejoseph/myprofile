@@ -23,11 +23,7 @@ const App = () => {
     </Routes>
  
     <Homepage />
-    </div>
-   
-      
-    
-      
+    </div>   
     
   );
 };
