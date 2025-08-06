@@ -13,11 +13,11 @@ const NavBar = () => {
   return (
     <>
       <div className="w-full fixed top-0 left-0 right-0 shadow bg-[#111827] p-5  z-50">
-        <div className=" flex justify-between  items-center">
-          <div className="flex md:text-3xl ">
-            <SiJoplin className="text-4xl text-gray-500 " />
+        <div className=" flex justify-between  items-center ">
+          <div className="flex text-xl  lg:text-3xl ">
+            <SiJoplin className="text-3xl lg:text-4xl text-gray-500 " />
 
-            <h1 className="text-3xl font-semibold bg-gradient-nt text-white">
+            <h1 className="text-2xl lg:text-3xl font-semibold bg-gradient-nt text-white">
               -temitope
             </h1>
           </div>
@@ -52,11 +52,11 @@ const NavBar = () => {
             </div>
           </div>
 
-          <div className="lg:hidden text-2xl border-2 p-2 rounded-xl animate-bounce duration-500 text-white">
+          <div className="lg:hidden text-xl border-2 p-2 rounded-xl animate-bounce duration-500 text-white">
             {navBar ? (
-              <RxHamburgerMenu onClick={click} />
-            ) : (
               <RxCross1 onClick={click} />
+            ) : (
+              <RxHamburgerMenu onClick={click} />
             )}
           </div>
         </div>
