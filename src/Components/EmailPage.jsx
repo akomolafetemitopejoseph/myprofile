@@ -30,7 +30,7 @@ const Emailpage = () => {
             <div className="mb-4">
               <label className="block mb-2 text-gray-50">Name</label>
               <input
-                className="w-full p-2 border-b-2 border-yellow-400 bg-transparent outline-none focus:border-b-2 focus:border-yellow-600"
+                className="w-full p-2 border-b-2 border-yellow-400 bg-transparent outline-none focus:border-b-2 focus:border-yellow-600 text-white"
                 type="text"
                 name="name"
               />
@@ -39,7 +39,7 @@ const Emailpage = () => {
             <div className="mb-4">
               <label className="block mb-2 text-gray-50">Email</label>
               <input
-                className="w-full p-2 border-b-2 border-yellow-400 bg-transparent outline-none focus:border-b-2 focus:border-yellow-600"
+                className="w-full p-2 border-b-2 border-yellow-400 bg-transparent outline-none focus:border-b-2 focus:border-yellow-600 text-white"
                 type="email"
                 name="email"
               />
@@ -47,7 +47,7 @@ const Emailpage = () => {
             <div className="mb-4">
               <label className="block mb-2 text-gray-50">Message</label>
               <textarea
-                className="w-full resize-none p-2 border-b-2 border-yellow-400 bg-transparent outline-none focus:border-b-2 focus:border-yellow-600"
+                className="w-full resize-none p-2 border-b-2 border-yellow-400 bg-transparent outline-none focus:border-b-2 focus:border-yellow-600 text-white"
                 name="message"
               />
             </div>
